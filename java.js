@@ -23,41 +23,14 @@ mainDiv.addEventListener('click', function(){
 });
 
 
-const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
-let countDown = new Date('oct 25, 2022 00:00:00').getTime(),
-    x = setInterval(function() {
+ document.getElementById('dias').innerText = (0),
+        document.getElementById('horas').innerText = (0),
+        document.getElementById('minutos').innerText = (0),
+        document.getElementById('segundos').innerText = (0);
 
-      let now = new Date().getTime(),
-          distance = countDown - now;
-
-      document.getElementById('dias').innerText = Math.floor(distance / (day)),
-        document.getElementById('horas').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutos').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('segundos').innerText = Math.floor((distance % (minute)) / second);
-
-    }, second)
-
-
-
-   const secondd = 1000,
-      minutee = secondd * 60,
-      hourr = minutee * 60,
-      dayy = hourr * 24;
-
-let countDow = new Date('oct 25, 2022 00:00:00').getTime(),
-    y = setInterval(function() {
-
-      let now = new Date().getTime(),
-          distance = countDown - now;
-
-      document.getElementById('diass').innerText = Math.floor(distance / (dayy)),
-        document.getElementById('horass').innerText = Math.floor((distance % (dayy)) / (hourr)),
-        document.getElementById('minutoss').innerText = Math.floor((distance % (hourr)) / (minutee)),
-        document.getElementById('segundoss').innerText = Math.floor((distance % (minutee)) / secondd);
-
-    }, second)
+          document.getElementById('diass').innerText = (0),
+        document.getElementById('horass').innerText = (0),
+        document.getElementById('minutoss').innerText = (0),
+        document.getElementById('segundoss').innerText = (0);
 
     
