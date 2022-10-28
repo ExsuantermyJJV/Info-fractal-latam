@@ -94,7 +94,7 @@ background-color: rgb(251, 255, 0);
   padding-bottom: 1rem;
   text-align: center;
   box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .3);
-  background: #141414a2;
+  background: #000000;
   margin: 4rem 2rem;
 }
 
@@ -640,6 +640,7 @@ font-size: 1.3vh;
    border-bottom: 2px solid  #e5ff00;
     padding-bottom: 1em;
     color: #ffffff;
+	  background: #0000008a;
   }
   .cabAcordeon h2:hover{
     color: #e5ff00;
@@ -660,6 +661,7 @@ font-size: 1.3vh;
     color: #ffffff;
     font-weight: 700;
     font-size: 1.7vh;
+	  background: #0000008a;
   }
   .animacionContenido{
     height:0;
@@ -835,6 +837,7 @@ justify-content: center;
     text-align: center;
     font-size: 3.5rem;
     color:#fffb00;
+	background: black;
   }
   .heading1 {
     padding-bottom: 2rem;
@@ -843,6 +846,7 @@ justify-content: center;
     color:white;
 	  padding-left: 10%;
 padding-right: 10%;
+	  background: black;
   }
 
   .heading2 {
@@ -853,6 +857,7 @@ padding-right: 10%;
 margin:auto;
 padding-left: 10%;
 padding-right: 10%;
+	  background: black;
   }
 * {
    
@@ -872,6 +877,22 @@ html {
 body {
     background-color: #000000;
 }
+
+  body{
+    background-image: url('img/fondohallowen.webp');
+  }
+
+  .home{
+    background-image: url('img/fondohallowen.webp');
+  }
+
+  .content{
+    background: #000000;
+  }
+  .content1{
+    background: #000000;
+  }
+
 /* contenido alterno - body */
 
 
@@ -1230,7 +1251,7 @@ button a{
 
 .footer {
     text-align: center;
-   
+    background: #000000;
 }
 .footer h4{
     font-size: 150%;
