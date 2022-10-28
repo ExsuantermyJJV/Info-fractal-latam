@@ -640,7 +640,7 @@ font-size: 1.3vh;
    border-bottom: 2px solid  #e5ff00;
     padding-bottom: 1em;
     color: #ffffff;
-	  background: #0000008a;
+background: #000000;
   }
   .cabAcordeon h2:hover{
     color: #e5ff00;
@@ -661,7 +661,7 @@ font-size: 1.3vh;
     color: #ffffff;
     font-weight: 700;
     font-size: 1.7vh;
-	  background: #0000008a;
+background: #000000;
   }
   .animacionContenido{
     height:0;
@@ -884,6 +884,17 @@ body {
 
   .home{
     background-image: url('img/fondohallowen.webp');
+  }
+
+ .home2{
+    background-image: url('img/fondohallowen.webp');
+  }
+  .box-container1  .box1 h3{
+    background-color: #000000;
+  }
+
+  .heading{
+    background-color: #000000;
   }
 
   .content{
